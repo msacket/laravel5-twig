@@ -101,5 +101,16 @@ class TwigFactory implements FactoryContract
   {
 
   }
+  
+  /**
+   * Replace the namespace hints for the given namespace.
+   *
+   * @param  string  $namespace
+   * @param  string|array  $hints
+   * @return $this
+   */
+  public function replaceNamespace($namespace, $hints){
+    
+  }
 
 }
